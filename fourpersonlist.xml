@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<people>
+	<person1>
+		<id>1a9f3c2e</id>
+		<name>Олена Кравчук</name>
+		<address>
+			<city>Львів</city>
+			<street>вул. Зелена</street>
+			<building>45Б</building>
+			<flat>12</flat>
+		</address>
+		<contacts>
+			<telephoneNumber>+380671234567</telephoneNumber>
+			<email>olena.kravchuk@example.com</email>
+			<telegramNickname>@olenka_lviv</telegramNickname>
+		</contacts>
+	</person1>
+	<person2>
+		<id>7b2d8a91</id>
+		<name>Ігор Мельник</name>
+		<address>
+			<city>Київ</city>
+			<street>просп. Перемоги</street>
+			<building>102</building>
+			<flat>56</flat>
+		</address>
+		<contacts>
+			<telephoneNumber>+380501112233</telephoneNumber>
+			<email>igor.melnyk@example.com</email>
+			<telegramNickname>@igor_kiev</telegramNickname>
+		</contacts>
+	</person2>
+	<person3>
+		<id>c4e7f812</id>
+		<name>Марина Шевченко</name>
+		<address>
+			<city>Одеса</city>
+			<street>вул. Дерибасівська</street>
+			<building>18</building>
+			<flat>7</flat>
+		</address>
+		<contacts>
+			<telephoneNumber>+380931234999</telephoneNumber>
+			<email>marina.shevchenko@example.com</email>
+			<telegramNickname>@marina_od</telegramNickname>
+		</contacts>
+	</person3>
+	<person4>
+		<id>9d5a6b3f</id>
+		<name>Тарас Бондар</name>
+		<address>
+			<city>Харків</city>
+			<street>вул. Молочна</street>
+			<building>77</building>
+			<flat>34</flat>
+		</address>
+		<contacts>
+			<telephoneNumber>+380661234321</telephoneNumber>
+			<email>andriy.bondar@example.com</email>
+			<telegramNickname>@andriy_kh</telegramNickname>
+		</contacts>
+	</person4>
+</people>
