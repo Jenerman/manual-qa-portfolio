@@ -1,0 +1,85 @@
+Logic Assignment - Imagine you are testing a web application for an online store. When a new user registers, the system displays a message confirming successful registration and sends an email to the email address provided during registration. You have noticed that sometimes users who have successfully registered do not receive the confirmation email. How would you investigate this issue?
+Write a plan to investigate the email problem, identify the cause of the malfunction, and make appropriate recommendations to improve the application's performance. Include steps from hypothesis formulation to testing the results in your plan.
+
+
+My plan to investigate the email problem
+
+Possible causes of the problem:
+
+Email is not sent due to an error in the backend
+Email is sent with a delay
+Email goes to the "Spam" folder
+Incorrect email address validation
+Problems with the email service
+An error during loading
+Email is not sent in all cases
+
+Reproducing the problem
+
+Perform a series of registrations with different email addresses (different domains: gmail, ukr.net, outlook, etc.)
+Use different browsers and devices
+Record the results (email received or not)
+Determine whether there is a pattern in the problem
+
+Basic check
+
+Check the "Spam" folder
+Make sure the entered email address is correct
+Check the delivery delay (wait 5–10 minutes)
+
+Check via browser tools
+
+Open DevTools (tab Network)
+Find the registration request
+Check the response status (for example, 200, 400, 500)
+Analyze the response body (whether it contains information about sending an email)
+
+Check logs. Contact the development team with a request to check the server logs for errors when sending email. Also check whether requests reach the email service
+
+Stability check
+
+Conduct a series of registrations (10–20 attempts)
+Determine the ratio of successful and unsuccessful sendings
+Check the dependence on load or time
+
+Analysis of results
+
+Determine whether the problem is permanent or situational
+Determine the dependence on:
+email provider
+execution time
+number of simultaneous requests
+
+Determining the cause
+Based on the data received, establish a possible cause, for example:
+
+unstable operation of the email service
+lack of a resend mechanism
+asynchronous processing without result control
+lack of error handling (the system shows success even if the sending fails)
+
+9. Recommendations for improvement
+
+Technical:
+
+Add a retry mechanism
+Implement error logging
+Ensure correct processing of email sending status
+Synchronize user messages with sending status
+
+Functional:
+
+Add the ability to resend an email
+Add instructions for the user (check the "Spam" folder)
+
+Operational:
+
+Implement email service monitoring
+Configure alerts when errors occur
+
+10. Check after correction
+
+Repeat all test scenarios
+Check the stability of email sending
+Check the operation of the resend mechanism
+Check the availability of logging and correct error handling
