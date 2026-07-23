@@ -1,0 +1,39 @@
+Мета цього завдання — навчитися правильно оформляти та писати Test Cases для перевірки функціонала програмного забезпечення. 
+Виконавши його, ти зможеш:
+- зрозуміти, як написати Test Cases за вимогами специфікації;
+- оволодіти навичками структурування та опису тест-кейсів;
+- ознайомитися з важливістю правильної документації в тестуванні програмного забезпечення.
+
+Завдання (Task)
+1. Перейти за посиланням
+2. Знайти шаблон Test Case, скопіювати шаблон собі
+3. Ознайомитись з документацією до ПЗ із розділу ”Компоненти та функціонал”
+4. За специфікацією написати 10 Test Cases: 5 Test Cases оформити в шаблоні з пункту 2, і 5 Test Cases оформити в TestRail.
+
+Обовʼязкові поля для заповнення в Test Case, що оформлені в гугл-таблиці:
+Target Description (Summary)
+Priority
+Pre-conditions
+Steps with Expected result for each step
+Executor
+Date
+
+
+Обов'язкові поля для заповнення в Test Case, що оформлені в TestRail:
+Target Description (Summary, title)
+Priority
+Pre-conditions
+Steps with Expected result for each step
+Executor
+Date
+
+! Колонки, які потрібно обовʼязково обрати при експорті тест-кейсів в формат CSV: 
+- ID 
+- Title 
+- Created By 
+- Created On 
+- Preconditions 
+- Priority 
+- Steps (Expected Result) 
+- Steps (Step) 
+- Type
