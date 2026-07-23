@@ -1,0 +1,64 @@
+{
+  "people": {
+    "person1": {
+      "id": "1a9f3c2e",
+      "name": "Олена Кравчук",
+      "address": {
+        "city": "Львів",
+        "street": "вул. Зелена",
+        "building": "45Б",
+        "flat": "12"
+      },
+      "contacts": {
+        "telephoneNumber": "+380671234567",
+        "email": "olena.kravchuk@example.com",
+        "telegramNickname": "@olenka_lviv"
+      }
+    },
+    "person2": {
+      "id": "7b2d8a91",
+      "name": "Ігор Мельник",
+      "address": {
+        "city": "Київ",
+        "street": "просп. Перемоги",
+        "building": "102",
+        "flat": "56"
+      },
+      "contacts": {
+        "telephoneNumber": "+380501112233",
+        "email": "igor.melnyk@example.com",
+        "telegramNickname": "@igor_kiev"
+      }
+    },
+    "person3": {
+      "id": "c4e7f812",
+      "name": "Марина Шевченко",
+      "address": {
+        "city": "Одеса",
+        "street": "вул. Дерибасівська",
+        "building": "18",
+        "flat": "7"
+      },
+      "contacts": {
+        "telephoneNumber": "+380931234999",
+        "email": "marina.shevchenko@example.com",
+        "telegramNickname": "@marina_od"
+      }
+    },
+    "person4": {
+      "id": "9d5a6b3f",
+      "name": "Тарас Бондар",
+      "address": {
+        "city": "Харків",
+        "street": "вул. Молочна",
+        "building": "77",
+        "flat": "34"
+      },
+      "contacts": {
+        "telephoneNumber": "+380661234321",
+        "email": "andriy.bondar@example.com",
+        "telegramNickname": "@andriy_kh"
+      }
+    }
+  }
+}
